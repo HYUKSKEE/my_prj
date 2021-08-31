@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>지원서 작성</title>
+<body>
+
+<h1>지원서 작성</h1>
+<table>
+  <tr>
+    <th>이름</th>
+    <td><input type="text" id="name" name="name"/></td>
+  </tr>
+  <tr>
+    <th>E-mail</th>
+    <td><input type="text" id="email" name="email"/></td>
+  </tr>
+  <tr>
+    <th>Address</th>
+    <td>
+      <textarea type="text" id="address" name="address"></textarea>
+    </td>
+  </tr>
+  <tr>
+    <th>Message</th>
+    <td>\
+      <textarea type="text" id="message" name="message"></textarea>
+    </td>
+  </tr>
+</table>
+<div style="width:100%; text-align: right;">
+  <button onclick="window.history.back()">취소</button>
+  <button onclick="save()">저장</button>
+</div>
+
+</body>
+<script src="./form.js"></script>

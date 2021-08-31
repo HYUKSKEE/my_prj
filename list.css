@@ -1,0 +1,12 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    background: #00ff55;
+    padding: 20px;
+    font-family: Nirmala UI;
+}
